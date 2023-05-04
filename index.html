@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Asociaciones de cultivos</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+
+  <body>
+    <div class="ubicacionTitulo"><h1 class="tituloSitio">Asociaciones de cultivos para plantas de huerta</h1></div>
+
+
+  <label class="ingresoSolicitud" for="plantas">Cargue las plantas a analizar separadas por coma y sin espacios:</label>
+  <br>
+  <input type="text" id="plantas">
+  <br>Pruebe con tomate y zanahora para que cree un solo grupo y luego agrega pimienta para que cree dos grupos por ejemplo.<br>
+  <button onclick="buscarAsociaciones()">Buscar asociaciones</button>
+  <br><br>
+  <div id="resultado"></div>
+
+  <script src="plantitas.js"></script>
+  </body>
+</html>
